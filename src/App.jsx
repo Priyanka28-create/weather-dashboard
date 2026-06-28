@@ -3,7 +3,7 @@ import "./App.css";
 
 import SearchBar from "./components/SearchBar";
 import WeatherCard from "./components/WeatherCard";
-import Forecast from "./components/Forecast";
+import ForeCast from "./components/ForeCast";
 import HourlyForecast from "./components/HourlyForecast";
 import AQICard from "./components/AQICard";
 import Loader from "./components/Loader";
@@ -18,7 +18,7 @@ import {
   getForecast,
   getAirQuality,
   getLocationWeather,
-} from "./services/weatherApi";
+} from "./services/weatherAPI";
 
 import {
   getWeatherBackground,
